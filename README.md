@@ -20,7 +20,7 @@ bash main.sh
 The above command will do the following tasks:-
 ```mermaid
 flowchart TD
-    A[Main.sh executed] --> B{Are pre-requisites installed?};
+    A[Main.sh executed !!] --> B{Check if pre-requisites are installed?};
     B -- Yes --> C[Begin Keptn Installation!];
     B -- No --> D[Install the pre-requisites!];
     C ----> E[Install K3d!];
