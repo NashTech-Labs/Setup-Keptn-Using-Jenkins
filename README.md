@@ -33,4 +33,4 @@ flowchart TD
 ## Congratulations you have intalled Keptn !!
 ### You can now access the Web UI at http://127.0.0.1.nip.io:8082/bridge.
 
-![alt text][https://ibb.co/p2TRCN1]
+![alt text](https://ibb.co/p2TRCN1)
