@@ -21,3 +21,5 @@ flowchart TD
     G ----> I[Configure ingress and authenticate Keptn CLI!];
     I ----> J[Enjoy Keptn has been installed!];
 ```
+## Congratulations you have intalled Keptn !!
+### You can now access the Web UI at http://127.0.0.1.nip.io:8082/bridge.
