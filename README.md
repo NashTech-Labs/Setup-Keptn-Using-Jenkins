@@ -12,6 +12,6 @@ The above command will do the following tasks:-
 flowchart TD
     A[Main.sh executed] --> B{Are pre-requisites installed?};
     B -- Yes --> C[Begin Keptn Installation!];
-    B -- No --> D[print "Install the pre-requisites!"];
+    B -- No --> D[print Install the pre-requisites!];
     C ----> E[Enjoy Keptn has been installed!];
 ```
