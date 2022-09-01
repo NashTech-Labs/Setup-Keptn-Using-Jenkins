@@ -18,6 +18,5 @@ flowchart TD
     E ----> F[Download and Install Keptn CLI!];
     F ----> G[Install control-plane and execution-plane for continuous delivery use case using Helm!];
     G ----> I[Configure ingress and authenticate Keptn CLI!];
+    I ----> J[Enjoy Keptn has been installed!];
 ```
-
-Enjoy Keptn has been installed!
