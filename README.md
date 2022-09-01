@@ -2,7 +2,8 @@
 Setup keptn cli, helm and k3d using Jenkins pipeline.
 
 ## How to begin the Installation?
-Just execute the main.sh file using this command.
+Just execute the main.sh file using this command using Jenkins pipeline on the host you want to deploy it on.
+Rest script will handle everything :)
 ```
 bash main.sh
 ```
