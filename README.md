@@ -15,4 +15,6 @@ flowchart TD
     B -- No --> D[print Install the pre-requisites!];
     C ----> E[Enjoy Keptn has been installed!];
     D ----> A[Main.sh executed];
+    E ----> F[Install K3d!];
+    F ----> G[Download and Install Keptn CLI!];
 ```
