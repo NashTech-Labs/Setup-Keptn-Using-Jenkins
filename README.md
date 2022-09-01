@@ -14,4 +14,5 @@ flowchart TD
     B -- Yes --> C[Begin Keptn Installation!];
     B -- No --> D[print Install the pre-requisites!];
     C ----> E[Enjoy Keptn has been installed!];
+    D ----> B{Are pre-requisites installed?};
 ```
