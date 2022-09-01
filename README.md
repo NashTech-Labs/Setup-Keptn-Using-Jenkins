@@ -13,6 +13,7 @@ Git
 ## How to begin the Installation?
 Just execute the main.sh file using this command using Jenkins pipeline on the host you want to deploy it on.
 Rest script will handle everything :relaxed:
+> **_NOTE:_**  Execute the command as root.
 ```
 bash main.sh
 ```
