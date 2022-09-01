@@ -13,8 +13,11 @@ flowchart TD
     A[Main.sh executed] --> B{Are pre-requisites installed?};
     B -- Yes --> C[Begin Keptn Installation!];
     B -- No --> D[print Install the pre-requisites!];
-    C ----> E[Enjoy Keptn has been installed!];
+    C ----> E[Install K3d!];
     D ----> A[Main.sh executed];
-    E ----> F[Install K3d!];
-    F ----> G[Download and Install Keptn CLI!];
+    E ----> F[Download and Install Keptn CLI!];
+    F ----> G[Install control-plane and execution-plane for continuous delivery use case using Helm!];
+    G ----> I[Configure ingress and authenticate Keptn CLI!];
 ```
+
+Enjoy Keptn has been installed!
